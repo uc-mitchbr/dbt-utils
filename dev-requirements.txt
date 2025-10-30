@@ -8,3 +8,4 @@ dbt-snowflake@git+https://github.com/dbt-labs/dbt-adapters.git#subdirectory=dbt-
 dbt-bigquery@git+https://github.com/dbt-labs/dbt-adapters.git#subdirectory=dbt-bigquery
 pytest-xdist
 tox>=3.13
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
